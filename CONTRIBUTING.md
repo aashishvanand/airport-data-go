@@ -70,7 +70,7 @@ Triggered on every push or pull request to `main`.
 - Runs `go mod verify`
 - Runs `go vet ./...`
 - Runs tests with race detection and coverage (`go test -v -race -coverprofile=coverage.out ./...`)
-- Tests across Go versions: 1.24, 1.25, 1.26
+- Tests on Go 1.26 (minimum version required by `go.mod`)
 
 ### Release Workflow
 
